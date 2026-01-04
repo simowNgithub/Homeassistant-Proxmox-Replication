@@ -1,0 +1,16 @@
+alias: MariaDB starten
+description: ""
+triggers:
+  - trigger: webhook
+    allowed_methods:
+      - POST
+      - PUT
+    local_only: true
+    webhook_id: "-9nIFpbua5xbV_start"
+conditions: []
+actions:
+  - action: hassio.addon_start
+    metadata: {}
+    data:
+      addon: core_mariadb
+mode: single
