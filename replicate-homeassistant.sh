@@ -4,7 +4,7 @@
 # Home Assistant Webhook-Konfiguration
 HA_URL="http://10.10.10.20:8123/api/webhook"
 WEBHOOK_STOP="-FTb5gs4iFiX0j-shutdown"
-WEBHOOK_START="xxxxx"
+WEBHOOK_START="-9nIFpbua5xbV_start"
 
 # Logdatei im Original-Proxmox-Stil
 LOG="/var/log/pve/replication/100-0.log"
