@@ -7,7 +7,7 @@ WEBHOOK_STOP="-FTb5gs4iFiX0j-shutdown"
 WEBHOOK_START="-9nIFpbua5xbV_start"
 
 # Logdatei im Original-Proxmox-Stil
-LOG="/var/log/pve/replication/100-0.log"
+LOG="/var/log/pve/replicate/100-0"
 
 # Start-Eintrag
 echo "$(date '+%Y-%m-%d %H:%M:%S') 100-0: start replication job (triggered via webhook script)" >> "$LOG"
